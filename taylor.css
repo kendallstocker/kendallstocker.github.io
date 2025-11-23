@@ -19,6 +19,8 @@ nav {
     font-weight: bold;
     text-align: center;
     padding: 1.5em;
+    font-size: 15
+    0%;
 }
 
 nav a:link {
@@ -41,7 +43,7 @@ h2 {
     color: #434961;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 dt {
@@ -56,7 +58,7 @@ dt {
 h1 {
     margin-bottom: 0;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
-    font-size: 200%;
+    font-size: 300%;
     margin-top: 0;
     font-weight: lighter;
     text-shadow: #FFFFFF 2px 2px 4px;
@@ -66,50 +68,110 @@ h3{
     color: #83DE87;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 h4{
     color: #E0BF5A;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 h5{
     color: #8137A3;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 h6{
     color: #801D1D;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 h7{
     color: #78EAFF;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h8{
     color: #000000;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h9{
     color: #F57DBB;
     font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     text-shadow: #FFFFFF 2px 2px 4px;
-    font-size: 200%;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+h10{
+    color: #C9C9C9;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    text-shadow: #FFFFFF 2px 2px 4px;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h11{
+    color: #BD7C2A;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    text-shadow: #FFFFFF 2px 2px 4px;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h12{
+    color: #171387;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    text-shadow: #FFFFFF 2px 2px 4px;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h13{
+    color: #454545;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    text-shadow: #FFFFFF 2px 2px 4px;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h14{
+    color: #DE6510;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    text-shadow: #FFFFFF 2px 2px 4px;
+    font-size: 300%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 
 ul{
     list-style-image: url('marker.gif');
@@ -161,6 +223,20 @@ main{
     background-repeat: no-repeat;
 }
 
+#indiehero {
+    height: 450px;
+    background-image: url('indie.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#recenthero {
+    height: 450px;
+    background-image: url('recent.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .content {
     display: flex;            /* side-by-side layout */
     flex-direction: row;      /* horizontal alignment */
@@ -196,4 +272,9 @@ td, th {
 td {
     text-align: center;
     font-size: 100%;
+}
+
+video {
+    float: right;
+    margin: 1em;
 }
